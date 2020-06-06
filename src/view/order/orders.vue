@@ -18,6 +18,7 @@
         <el-table-column prop="sellerPhone" width="110" label="销售联系方式" align="center"></el-table-column>
         <el-table-column prop="brand" label="品牌" width="130" align="center"></el-table-column>
         <el-table-column prop="carType" label="车型" width="100" align="center"></el-table-column>
+        <el-table-column prop="carColor" label="车子颜色" width="60" align="center"></el-table-column>
         <el-table-column prop="carImg" label="车子图片" width="60" align="center">
           <template slot-scope="scope">
               <el-image
@@ -57,8 +58,8 @@
             ></el-image>
           </template>
         </el-table-column>
-        <el-table-column prop="pointNumber" label="返现(元)" width="70" align="center"></el-table-column>
-        <el-table-column prop="discountPrice" label="诸葛价" width="70" align="center"></el-table-column>
+        <el-table-column prop="pointNumber" label="返现(元)" width="60" align="center"></el-table-column>
+        <el-table-column prop="discountPrice" label="诸葛价" width="60" align="center"></el-table-column>
         <el-table-column
           prop="status"
           label="状态"

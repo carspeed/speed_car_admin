@@ -17,6 +17,7 @@
         <el-table-column prop="sellerPhone" width="150" label="销售联系方式" align="center"></el-table-column>
         <el-table-column prop="brand" label="品牌" width="130" align="center"></el-table-column>
         <el-table-column prop="carType" label="车型" width="100" align="center"></el-table-column>
+        <el-table-column prop="carColor" label="车子颜色" width="60" align="center"></el-table-column>
         <el-table-column prop="carImg" label="车子图片" width="60" align="center">
           <template slot-scope="scope">
               <el-image
@@ -51,7 +52,7 @@
           <el-button
             size="medium"
             type="primary"
-            @click="handleEdit(scope.$index, scope.row)" :disabled="scope.row.status != 2">交易处理中
+            @click="handleEdit(scope.$index, scope.row)" :disabled="scope.row.status != 2">下单处理中
           </el-button>
           <!-- <el-button
             size="medium"
